@@ -4,6 +4,7 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
+  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -15,99 +16,78 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple">INTRODUCE</span> MYSELF
+              LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
-
             <p className="home-about-body">
-              I fell in love with data engineering and modern technologies, and
-              I have learned something valuable every day, I think… 🤷‍♂️
-              
+              I fell in love with programming and I have at least learnt
+              something, I think… 🤷‍♂️
+              <br />
+              <br />I am fluent in classics like
+              <i>
+                <b className="purple"> Python, Javascript and React. </b>
+              </i>
               <br />
               <br />
-
-              I am fluent in classics like
+              My field of Interest's are building new &nbsp;
+              <i>
+                <b className="purple">Web Technologies and Products </b> and
+                also in areas related to{" "}
+                <b className="purple">
+                  DSA.
+                </b>
+              </i>
+              <br />
+              <br />
+              Whenever possible, I also apply my passion for developing products
+              with <b className="purple">Node.js</b> and
               <i>
                 <b className="purple">
                   {" "}
-                  ETL, Oracle SQL, Informatica Intelligent Cloud Services (IICS),
-                  and Python.
+                  Modern Javascript Library and Frameworks
                 </b>
               </i>
-
-              <br />
-              <br />
-
-              My fields of interest are building efficient{" "}
+              &nbsp; like
               <i>
-                <b className="purple">
-                  Data Integration Solutions and Enterprise Data Pipelines
-                </b>
-              </i>{" "}
-              and also in areas related to{" "}
-              <i>
-                <b className="purple">
-                  Generative AI and Data Analytics.
-                </b>
-              </i>
-
-              <br />
-              <br />
-
-              Whenever possible, I also apply my passion for developing
-              data-driven solutions with{" "}
-              <b className="purple">ETL Tools</b> and{" "}
-              <i>
-                <b className="purple">
-                  Cloud-Based Integration Platforms
-                </b>
-              </i>{" "}
-              like{" "}
-              <i>
-                <b className="purple">
-                  IICS, Oracle SQL, and Gen AI Technologies.
-                </b>
+                <b className="purple"> React.js and Express.js</b>
               </i>
             </p>
           </Col>
-
           <Col md={4} className="myAvtar">
             <Tilt>
-              {myImg}
+              <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
-
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
-
             <p>
-              Feel free to <span className="purple">connect</span> with me
+              Feel free to <span className="purple">connect </span>with me
             </p>
-
             <ul className="home-about-social-links">
               <li className="social-icons">
-                /saparevijay"
+                <a
+                  href="https://github.com/saparevijay"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour home-social-icons"
+                  className="icon-colour  home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
               </li>
-
               <li className="social-icons">
-                .com/in/saparevijay/"
+                <a
+                  href="https://www.linkedin.com/in/vijaysapare/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour home-social-icons"
+                  className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
               </li>
-
               <li className="social-icons">
-                .instagram.com/sapare_vijay/"
+                <a
+                  href="https://www.instagram.com/sapare_vijay/profilecard/?igsh=MWlzdDlmaWo0MThiMQ=="
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
@@ -122,5 +102,4 @@ function Home2() {
     </Container>
   );
 }
-
 export default Home2;
