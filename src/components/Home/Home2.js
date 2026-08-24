@@ -15,11 +15,13 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              LET ME <span className="purple">INTRODUCE</span> MYSELF
             </h1>
 
             <p className="home-about-body">
-              I fell in love with data engineering and modern technologies, and I have learned something valuable every day, I think… 🤷‍♂️
+              I fell in love with data engineering and modern technologies, and
+              I have learned something valuable every day, I think… 🤷‍♂️
+              
               <br />
               <br />
 
@@ -27,19 +29,22 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  ETL, Oracle SQL, Informatica Intelligent Cloud Services (IICS), and Python.
+                  ETL, Oracle SQL, Informatica Intelligent Cloud Services (IICS),
+                  and Python.
                 </b>
               </i>
 
               <br />
               <br />
 
-              My field of Interest's are building efficient{" "}
+              My fields of interest are building efficient{" "}
               <i>
                 <b className="purple">
                   Data Integration Solutions and Enterprise Data Pipelines
-                </b>{" "}
-                and also in areas related to{" "}
+                </b>
+              </i>{" "}
+              and also in areas related to{" "}
+              <i>
                 <b className="purple">
                   Generative AI and Data Analytics.
                 </b>
@@ -48,18 +53,17 @@ function Home2() {
               <br />
               <br />
 
-              Whenever possible, I also apply my passion for developing data-driven solutions with{" "}
-              <b className="purple">ETL Tools</b> and
+              Whenever possible, I also apply my passion for developing
+              data-driven solutions with{" "}
+              <b className="purple">ETL Tools</b> and{" "}
               <i>
                 <b className="purple">
-                  {" "}
                   Cloud-Based Integration Platforms
                 </b>
               </i>{" "}
-              like
+              like{" "}
               <i>
                 <b className="purple">
-                  {" "}
                   IICS, Oracle SQL, and Gen AI Technologies.
                 </b>
               </i>
@@ -68,7 +72,7 @@ function Home2() {
 
           <Col md={4} className="myAvtar">
             <Tilt>
-               className="img-fluid" alt="avatar" />
+              {myImg}
             </Tilt>
           </Col>
         </Row>
@@ -78,13 +82,12 @@ function Home2() {
             <h1>FIND ME ON</h1>
 
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span className="purple">connect</span> with me
             </p>
 
             <ul className="home-about-social-links">
               <li className="social-icons">
-                <a
-                  href="https://github.com/saparevijay"
+                /saparevijay"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
@@ -104,8 +107,7 @@ function Home2() {
               </li>
 
               <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/sapare_vijay/"
+                .instagram.com/sapare_vijay/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
