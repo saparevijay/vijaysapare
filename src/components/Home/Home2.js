@@ -4,7 +4,6 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -37,16 +36,16 @@ function Home2() {
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing data-driven solutions with <b className="purple">Node.js</b> and
+              Whenever possible, I also apply my passion for developing data-driven solutions with <b className="purple">ETL Tools</b> and
               <i>
                 <b className="purple">
                   {" "}
-                   ETL Tools and Cloud-Based Integration Platforms like IICS, Oracle SQL, and Gen AI Technologies.
+                  Cloud-Based Integration Platforms
                 </b>
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Express.js</b>
+                <b className="purple">IICS, Oracle SQL, and Gen AI Technologies.</b>
               </i>
             </p>
           </Col>
@@ -85,7 +84,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/sapare_vijay/profilecard/?igsh=MWlzdDlmaWo0MThiMQ=="
+                  href="https://www.instagram.com/sapare_vijay/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
